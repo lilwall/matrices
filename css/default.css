@@ -1,0 +1,39 @@
+
+body {
+}
+
+#wrapper {
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+#contents {
+    margin: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+#contents section {
+    border-right: 1px dotted gray;
+    float: left;
+    padding: 24px;
+    width: 45%;
+}
+
+.tablero {
+    margin: 4px 8px 8px 32px;
+}
+
+.tablero .btnTablero {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 48px;
+    width: 48px;
+}
+
+.tablero .btnTablero img {
+    margin: 0px;
+    padding: 0px;
+}
